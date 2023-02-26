@@ -1,42 +1,140 @@
-#logo{
-width: 300px;
-height: 50px;
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@300&family=Montserrat:wght@400;700&family=Poppins:wght@100&display=swap');
+body{
+    
+    background-color: #0F0F0F;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
 }
 
-h1{
 
-    font-size: 45px;
+img{
+    
+    width: 116px;
+    height: 20px;
+    left: 673px;
+    top: 15px;
+    margin-top: 15px;
+}
+
+.menu{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+#ent{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form input{
+    background-color: #7F7F7F;
+    border-radius: 25px;
+    width: 350px;
+    height: 40px;
+    border: 0px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+
+input{
+    background-color: #7F7F7F;
+    border-radius: 25px;
+    height: 53px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+form input::placeholder{
+    padding: 5px;
+}
+    
+/* #main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+*/
+.label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15pt;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 280px;
+    margin-top: 0px;
 }
 
 
 
 #entrar{
-    height: 45px;
+    align-items: center;
+    color: white;
     width: 214px;
-    background: #EFEFEF;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 29px;
-}
-
-#provedor{
-    width: 404.5px;
-    height: 45px;
-    background: #EFEFEF;
+    height: 55px;
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
     text-align: center;
     font-size: 33px;
-    border-radius: 5px;
-}
+} 
+
+#provedor{
+    align-items: center;
+    color: white;
+    width: 350px;
+    height: 55px;
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 33px;
+} 
 
 h3{
-    font-size: 23px;
+    font-size: 22px;
+    margin-top: 0px;
 }
 
-.email{
-    width: 566px;
-    height: 45px;
-}
+@media  screen and(max-width:480px) {
 
-.label{
-    font-size: 28px;
+    header{
+        width: 80%;
+        font-size: 8pt;
+    }
+
+    header img{
+        height: 50px;
+    }
+   
+    form{
+        width: 300px;
+    }
 }

@@ -1,4 +1,4 @@
-<!--Arquivo HTML da dinâmica 1 -->
+<!--HTML da dinamica 2-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,30 +11,31 @@
 <body>
 
     <!-- Cabeçalho da página -->
-    <header>
-        <img src="assets/images/logo.svg" id="logo" alt="">
-
-         <h1>Entrar</h1>
-         <h3 class="h3">Você tem uma conta HBO Max?</h3>
+    <header id="header">
+        <img src="assets/images/logo2.svg" class="logo" alt="">
+        <div class="menu">Menu</div>
+        <div class="menu">Assinar</div>
+         <h1 id="ent">Entrar</h1>
+         <h3>Você tem uma conta HBO Max?</h3>
     </header>
 
     <!-- Área principal da página -->
     <main id="main">
-        <form>
+        <form action="cadastrar.html" method="post">
             <label class="label">
                 E-mail
-            </label><br><br>
-            <input class="email" type="email" placeholder=""><br><br>
+            </label>
+            <input class"email" type="email" placeholder="email">
 
             <label class="label">
                 Senha
-            </label><br>
-            <input class="email" type="password" placeholder=""><br><br>
+            </label>
+            <input class"email" type="password" placeholder="password">
 
-            <input id="entrar" type="text" value="Entrar"><br>
+            <input id="entrar" type="text" value="Entrar">
 
-            <h3>Você acessa a HBO Max por um provedorde TV,<br>
-                  de internet ou celular?</h3>
+            <h3>Você acessa a HBO Max por um provedor<br>
+                 de TV, de internet ou celular?</h3>
 
             <input id="provedor" type="text" value="Entrar como provedor">
         </form>
