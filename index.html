@@ -5,18 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login DNC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>HBOMax</title>
     <link rel="stylesheet" href="./assets/estilo.css" type="text/css">
 </head>
 <body>
-
+    <nav>
+        <div id="nav_button">
+            <button>
+                <img src="./assets/images/opcoes.svg">
+            </button>
+            <button>
+                <img src="./assets/images/lupa.svg">
+            </button>
+        </div>
+        <img id="hbomax" src="./assets/images/hbo.svg">
+        <div id="nav_links">
+            <a>Assinar</a>
+            <a>Entrar</a>
+        </div>     
+    </nav>
     <!-- Cabeçalho da página -->
     <header id="header">
-        <img src="assets/images/logo2.svg" class="logo" alt="">
-        <div class="menu">Menu</div>
-        <div class="menu">Assinar</div>
          <h1 id="ent">Entrar</h1>
-         <h3>Você tem uma conta HBO Max?</h3>
+         <h2 id="h2">Você tem uma conta HBO Max?</h2>
     </header>
 
     <!-- Área principal da página -->
@@ -25,17 +40,17 @@
             <label class="label">
                 E-mail
             </label>
-            <input class"email" type="email" placeholder="email">
+            <input class"email" type="email" placeholder="email@dnc.group">
 
             <label class="label">
                 Senha
             </label>
-            <input class"email" type="password" placeholder="password">
+            <input class"email" type="password" placeholder="*******">
 
             <input id="entrar" type="text" value="Entrar">
 
-            <h3>Você acessa a HBO Max por um provedor<br>
-                 de TV, de internet ou celular?</h3>
+            <h2 id="h2">Você acessa a HBO Max por um provedor<br>
+                 de TV, de internet ou celular?</h2>
 
             <input id="provedor" type="text" value="Entrar como provedor">
         </form>
