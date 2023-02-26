@@ -1,0 +1,42 @@
+#logo{
+width: 300px;
+height: 50px;
+}
+
+h1{
+
+    font-size: 45px;
+}
+
+
+
+#entrar{
+    height: 45px;
+    width: 214px;
+    background: #EFEFEF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 29px;
+}
+
+#provedor{
+    width: 404.5px;
+    height: 45px;
+    background: #EFEFEF;
+    text-align: center;
+    font-size: 33px;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+.email{
+    width: 566px;
+    height: 45px;
+}
+
+.label{
+    font-size: 28px;
+}
